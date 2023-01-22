@@ -11,8 +11,9 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  line-height: 1;
+  line-height: 30px;
   font-weight: 400;
+  letter-spacing: -0.02em;
 
   background-color: #fff;
 }
@@ -109,4 +110,56 @@ body {
   cursor: pointer;
   /* box-shadow: ; */
   transform: translateY(-3px);
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+/**********************/
+/* HERO SECTION */
+/**********************/
+
+.hero {
+  height: 830px;
+  position: relative;
+}
+
+.hero-img {
+  opacity: 0.3;
+  margin: 192px 0 90px 0;
+  z-index: 0;
+  order: 1;
+}
+
+.hero-block {
+  position: absolute;
+  display: flex;
+  top: 140px;
+  bottom: 140px;
+  left: 220px;
+  right: 220px;
+  z-index: 1;
+
+  width: 1480px;
+  height: 549px;
+  order: 0;
+}
+
+.hero-heading {
+  margin: 94px 0;
+}
+
+.heading {
+  font-size: 64px;
+  font-weight: 700;
+  color: #4f9cf9;
+  line-height: 77px;
+  align-self: stretch;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  color: #4f9cf9;
+  margin-bottom: 60px;
 }
