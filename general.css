@@ -19,6 +19,14 @@ body {
 }
 
 /**********************/
+/* REUSABLE */
+/**********************/
+
+.pad {
+  padding: 140px 220px;
+}
+
+/**********************/
 /* HEADER */
 /**********************/
 .header {
@@ -175,8 +183,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 100px;
-  padding: 140px 220px;
-  /* height: 1590px; */
 }
 
 .proj-img {
@@ -186,7 +192,7 @@ body {
   opacity: 0.2;
   left: 0%;
   right: 85%;
-  top: 28.5%;
+  top: 16.5%;
   bottom: 23%;
 }
 
@@ -240,4 +246,25 @@ body {
   right: 24.27%;
   top: 66%;
   bottom: 50%;
+}
+
+/**********************/
+/* CUSTOMISE SECTION */
+/**********************/
+.customise {
+  display: flex;
+}
+
+.customise-heading {
+  margin: 49px 98px 49px 0;
+  position: relative;
+}
+
+.yellow-underline2 {
+  position: absolute;
+  z-index: -1;
+  left: 24%;
+  right: 37%;
+  top: 82.5%;
+  bottom: 20%;
 }
