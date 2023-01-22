@@ -5,13 +5,13 @@
 }
 
 html {
-  font-size: 18px;
   overflow-x: hidden;
 }
 
 body {
   font-family: "Inter", sans-serif;
   line-height: 30px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.02em;
 
@@ -162,4 +162,82 @@ body {
 .hero-text {
   color: #4f9cf9;
   margin-bottom: 60px;
+}
+
+/**********************/
+/* WORK-MANAGEMENT SECTION */
+/**********************/
+
+.work-management {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 140px 220px;
+  /* height: 1590px; */
+}
+
+.proj-img {
+  position: absolute;
+  z-index: 0;
+  mix-blend-mode: multiply;
+  opacity: 0.2;
+  left: 0%;
+  right: 85%;
+  top: 28.5%;
+  bottom: 23%;
+}
+
+.content0-block {
+  display: flex;
+  z-index: 1;
+}
+
+.content0 {
+  margin: 68px 60px 68px 0;
+}
+
+.headline {
+  position: relative;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #212529;
+  margin-bottom: 24px;
+}
+
+.yellow-underline {
+  position: absolute;
+  z-index: -1;
+  left: 0%;
+  right: -1%;
+  top: 66%;
+  transform: matrix(1, 0, 0.01, 1, 0, 0);
+}
+
+.text {
+  color: #212529;
+  margin-bottom: 60px;
+}
+
+.work-content {
+  display: flex;
+  gap: 100px;
+  z-index: 1;
+}
+
+.content1 {
+  margin: 183.5px 0;
+  position: relative;
+}
+
+.yellow-underline1 {
+  position: absolute;
+  z-index: -1;
+  left: 33%;
+  right: 24.27%;
+  top: 66%;
+  bottom: 50%;
 }
