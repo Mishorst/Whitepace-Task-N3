@@ -14,6 +14,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.02em;
+  color: #212529;
 
   background-color: #fff;
 }
@@ -210,7 +211,6 @@ body {
   font-weight: 700;
   font-size: 72px;
   line-height: 87px;
-  color: #212529;
   margin-bottom: 24px;
 }
 
@@ -224,7 +224,6 @@ body {
 }
 
 .text {
-  color: #212529;
   margin-bottom: 60px;
 }
 
@@ -273,6 +272,132 @@ body {
 /* PRICING SECTION */
 /**********************/
 
-.bullet-point ul {
-  list-style-image: url(Resources/pricing/Icon-black.png);
+.pricing-heading {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 251px;
+  margin-bottom: 60px;
+}
+
+.yellow-underline3 {
+  position: absolute;
+  z-index: -1;
+  left: 49%;
+  right: 29%;
+  top: 67%;
+  bottom: 40%;
+}
+
+.pricing-heading .text {
+  text-align: center;
+}
+
+.price-list {
+  display: flex;
+  gap: 32px;
+  padding: 0 63.5px;
+}
+
+.price-board {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 40px 28px;
+  border: solid 1px #ffe492;
+  border-radius: 10px;
+  width: 472.33px;
+  height: 634px;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.price-txt {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.5px;
+}
+
+.price-description {
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+ul {
+  list-style: none;
+}
+
+.black-icon {
+  width: 18.01px;
+  height: 18.01px;
+}
+
+.bullet-point-list li {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.bullet-point-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.btn-yel {
+  padding: 16px 40px;
+  background-color: #fff;
+  border: solid 1px #ffe492;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.price-board:hover,
+.price-board:active {
+  border: none;
+  color: #043873;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  transform: translateY(-63.5px);
+  height: 761px;
+}
+
+.price-board:hover .point li {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+/* არ არის დასრულებული ეს */
+.price-board:hover .black-icon::before {
+  display: inline-block;
+  content: url(Resources/pricing/Icon.png);
+}
+
+.price-board:hover .btn-yel {
+  background-color: #4f9cf9;
+  border: none;
+  color: #fff;
+  border: none;
 }
