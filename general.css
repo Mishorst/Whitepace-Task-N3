@@ -268,3 +268,11 @@ body {
   top: 82.5%;
   bottom: 20%;
 }
+
+/**********************/
+/* PRICING SECTION */
+/**********************/
+
+.bullet-point ul {
+  list-style-image: url(Resources/pricing/Icon-black.png);
+}
