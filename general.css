@@ -446,3 +446,37 @@ ul {
   opacity: 0.2;
   z-index: 0;
 }
+
+/**********************/
+/* TEMP SECTION */
+/**********************/
+.temp {
+  height: 200px;
+  background-color: #fff;
+}
+
+/**********************/
+/* APPS SECTION */
+/**********************/
+.apps {
+  height: 750px;
+  background: #043873;
+  position: relative;
+}
+
+.background-img {
+  position: absolute;
+  width: 2041.06px;
+  height: 700.4px;
+  left: -60.03px;
+  top: 9.78px;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.apps-block {
+  display: flex;
+  gap: 100px;
+  z-index: 1;
+  color: #fff;
+}
