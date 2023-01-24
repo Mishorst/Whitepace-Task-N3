@@ -212,6 +212,7 @@ body {
   font-size: 72px;
   line-height: 87px;
   margin-bottom: 24px;
+  z-index: 1;
 }
 
 .yellow-underline {
@@ -400,4 +401,48 @@ ul {
   border: none;
   color: #fff;
   border: none;
+}
+
+/**********************/
+/* YOUR WORK SECTION */
+/**********************/
+.work {
+  height: 574px;
+  background: #043873;
+  position: relative;
+}
+
+.work .work-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  align-self: stretch;
+}
+
+.work-txt-block {
+  position: relative;
+  width: 1080px;
+}
+
+.blue-underline {
+  position: absolute;
+  left: 72.76%;
+  right: -1%;
+  top: 27%;
+  bottom: 49%;
+  z-index: 0;
+}
+
+.work-txt-block .text {
+  text-align: center;
+}
+
+.background-element {
+  position: absolute;
+  left: 0;
+  top: -185px;
+  opacity: 0.2;
+  z-index: 0;
 }
