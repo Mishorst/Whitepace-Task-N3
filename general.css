@@ -27,6 +27,10 @@ body {
   padding: 140px 220px;
 }
 
+.client-pad {
+  padding: 60px 40px;
+}
+
 /**********************/
 /* HEADER */
 /**********************/
@@ -479,4 +483,73 @@ ul {
   gap: 100px;
   z-index: 1;
   color: #fff;
+}
+
+/**********************/
+/* TESTIMONIAL SECTION */
+/**********************/
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 60px;
+  height: 1042px;
+}
+
+.yellow-underline6 {
+  position: absolute;
+  left: 47.5%;
+  right: 39.94%;
+  top: 21.32%;
+  bottom: 73.89%;
+}
+
+.tes-block .headline {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tes-content {
+  display: flex;
+  gap: 32px;
+  width: 1480px;
+  height: 480px;
+  align-items: center;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  gap: -11px;
+  align-items: flex-start;
+  width: 472px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.client:hover {
+  color: #fff;
+  background-color: #4f9cf9;
+}
+
+.avatar {
+  margin-bottom: 35px;
+}
+
+.slider {
+  display: flex;
+  gap: 100px;
+}
+
+.btn-slider {
+  width: 75px;
+  height: 75px;
+  border: none;
+  border-radius: 50%;
+  background: #e6f1fe;
+  box-shadow: 0px 4px 50px -15px rgba(0, 0, 0, 0.15);
 }
