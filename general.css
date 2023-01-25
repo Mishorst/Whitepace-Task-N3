@@ -119,7 +119,8 @@ body {
 .btn-login:hover,
 .btn-login:active,
 .btn:hover,
-.btn:active {
+.btn:active,
+.btn-light:hover {
   cursor: pointer;
   /* box-shadow: ; */
   transform: translateY(-3px);
@@ -379,6 +380,11 @@ ul {
   line-height: 19px;
 }
 
+.btn-yel:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+}
+
 .price-board:hover,
 .price-board:active {
   border: none;
@@ -456,23 +462,22 @@ ul {
 /**********************/
 .your-data {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-
 }
+
 .data-heading {
   width: 800px;
   height: 324px;
   top: 28;
   gap: 60px;
 }
+
 .data-text-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
+
 .yellow-underline4 {
   position: absolute;
   z-index: -1;
@@ -481,53 +486,31 @@ ul {
   top: 67%;
   bottom: 40%;
 }
-.btn-read {
-  padding: 18.5px 24px;
-  background-color: #4f9cf9;
-  border: none;
-  border-radius: 8px;
 
-  font-family: inherit;
-  font-size: 18px;
-  font-weight: 500;
-  color: #fff;
-}
-.data-element {
-  width: 681px;
-  height: 381px;
-}
 /**********************/
-/* sponsors */
+/* SPONSORS SECTION */
 /**********************/
 .our-sponsors {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 100px;
 }
-.sponsors-txt-block {
-  text-align: center;
-}
+
 .yellow-underline5 {
   position: absolute;
   z-index: -1;
-  left: 35%;
+  left: 34%;
   right: 33%;
-  top: 67%;
+  top: 69%;
   bottom: 40%;
 }
+
 .img-block {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   gap: 100px;
   width: 1482px;
-}
-.temp {
-  height: 200px;
-  background-color: #fff;
 }
 
 /**********************/
@@ -593,7 +576,7 @@ ul {
 .client {
   display: flex;
   flex-direction: column;
-  gap: -11px;
+  gap: 35px;
   align-items: flex-start;
   width: 472px;
   height: 480px;
@@ -607,8 +590,28 @@ ul {
   background-color: #4f9cf9;
 }
 
+.comment {
+  width: 350px;
+  height: 255px;
+}
+
 .avatar {
   margin-bottom: 35px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.name-star {
+  display: flex;
+  gap: 53px;
+}
+
+.star:hover {
+  cursor: pointer;
 }
 
 .slider {
@@ -623,4 +626,132 @@ ul {
   border-radius: 50%;
   background: #e6f1fe;
   box-shadow: 0px 4px 50px -15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-slider:hover {
+  cursor: pointer;
+}
+
+/**********************/
+/* FOOTER SECTION */
+/**********************/
+
+.footer {
+  padding: 140px 220px 32px 220px;
+  background: #043873;
+}
+
+.footer-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-txt-block {
+  display: flex;
+  gap: 100px;
+  align-items: flex-start;
+  width: 1480px;
+  height: 182px;
+  color: #fff;
+}
+
+.footer-logo {
+  width: 241px;
+  height: 120px;
+}
+
+.fot-log {
+  margin-bottom: 15px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 200px;
+  height: 127px;
+}
+
+.footer-txt {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  width: 265px;
+  height: 182px;
+}
+
+.footer-h5 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.btn-light {
+  padding: 20px, 40px, 20px, 40px;
+  background-color: #4f9cf9;
+  border: none;
+  border-radius: 8px;
+  width: 186px;
+  height: 60px;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.line {
+  position: absolute;
+  border: 1px solid #2e4e73;
+  width: 1480px;
+  width: 1480px;
+  height: 0px;
+  left: 0px;
+  top: 249.07px;
+}
+
+.footer-btm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1480px;
+  height: 20px;
+}
+
+.terms {
+  display: flex;
+  gap: 60px;
+}
+
+.language {
+  display: flex;
+  gap: 6px;
+}
+
+.arrow-down {
+  width: 12px;
+  height: 6px;
+  transform: translate(0%, 120%);
+}
+
+.icons {
+  display: flex;
+  gap: 32px;
+}
+
+.icons:hover {
+  cursor: pointer;
 }
