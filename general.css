@@ -493,17 +493,16 @@ ul {
   height: 381px;
 }
 /**********************/
-/* YOUR DATA */
+/* sponsors */
 /**********************/
 .our-sponsors {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 100px;
 }
 .sponsors-txt-block {
-  font-family: 'Inter';
-  font-style: normal;
   text-align: center;
 }
 .yellow-underline5 {
@@ -514,10 +513,13 @@ ul {
   top: 67%;
   bottom: 40%;
 }
-.sponsors-element {
+.img-block {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  gap: 100px;
+  width: 1482px;
 }
 .temp {
   height: 200px;
@@ -550,10 +552,9 @@ ul {
   color: #fff;
 }
 /**********************/
-/* APPS SECTION */
+/* USERS */
 /**********************/
 .users-txt-block {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
