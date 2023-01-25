@@ -452,8 +452,79 @@ ul {
 }
 
 /**********************/
-/* TEMP SECTION */
+/* YOUR DATA */
 /**********************/
+.your-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.data-heading {
+  width: 800px;
+  height: 324px;
+  top: 28;
+  gap: 60px;
+}
+.data-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.yellow-underline4 {
+  position: absolute;
+  z-index: -1;
+  left: 30%;
+  right: 33%;
+  top: 67%;
+  bottom: 40%;
+}
+.btn-read {
+  padding: 18.5px 24px;
+  background-color: #4f9cf9;
+  border: none;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.data-element {
+  width: 681px;
+  height: 381px;
+}
+/**********************/
+/* sponsors */
+/**********************/
+.our-sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.sponsors-txt-block {
+  text-align: center;
+}
+.yellow-underline5 {
+  position: absolute;
+  z-index: -1;
+  left: 35%;
+  right: 33%;
+  top: 67%;
+  bottom: 40%;
+}
+.img-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  width: 1482px;
+}
 .temp {
   height: 200px;
   background-color: #fff;
