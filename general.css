@@ -247,7 +247,7 @@ body {
 .yellow-underline1 {
   position: absolute;
   z-index: -1;
-  left: 33%;
+  left: 36%;
   right: 24.27%;
   top: 66%;
   bottom: 50%;
@@ -268,8 +268,8 @@ body {
 .yellow-underline2 {
   position: absolute;
   z-index: -1;
-  left: 24%;
-  right: 37%;
+  left: 27%;
+  right: 34%;
   top: 82.5%;
   bottom: 20%;
 }
@@ -277,6 +277,10 @@ body {
 /**********************/
 /* PRICING SECTION */
 /**********************/
+
+.pricing {
+  height: 1272px;
+}
 
 .pricing-heading {
   display: flex;
@@ -400,12 +404,6 @@ ul {
   line-height: 23px;
 }
 
-/* არ არის დასრულებული ეს */
-.price-board:hover .black-icon::before {
-  display: inline-block;
-  content: url(Resources/pricing/Icon.png);
-}
-
 .price-board:hover .btn-yel {
   background-color: #4f9cf9;
   border: none;
@@ -481,9 +479,9 @@ ul {
 .yellow-underline4 {
   position: absolute;
   z-index: -1;
-  left: 30%;
+  left: 33%;
   right: 33%;
-  top: 67%;
+  top: 75%;
   bottom: 40%;
 }
 
